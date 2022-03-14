@@ -47,4 +47,32 @@ p {
     margin-bottom: 100px;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+}
+
 /* Header Section */
+nav {
+    height: 100px;
+}
+
+nav h2 {
+    float: left;
+    display: inline;
+    line-height: 100px;
+}
+
+nav ul {
+    float: right;
+    line-height: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+}
